@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversor de Temperatura - Prof. Anthony Freitas</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+	<div class="degrade">
+		<div class="outer-container">
+			<div class="social-icons">
+				<a href ="https://github.com/mvrcos-santos" target="_blank"><i class="fab fa-github"></i></a>
+				<a href ="http://www.facebook.com/mrcsxv" target="_blank"><i class="fab fa-facebook"></i></a>
+				<a href = "http://x.com" target="_blank"><i class="fab fa-twitter"></i></a>
+				<a href = "http://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+				<a href = "http://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+				<a href ="http://www.last.fm/tonificar" target="_blank"><i class="fab fa-lastfm"></i></a>
+			</div>
+		</div>
+		<div id="container">
+			<label for="temperature">Digite a temperatura:</label><br>
+			<input type="number" id="temperature" class="custom-input"><br>
+			
+			<div class="input-label">
+			  <label for="unit">Escolha a unidade:</label><br>
+			  <select id="unit" class="custom-input">
+				<option value="celsius">Celsius</option>
+				<option value="fahrenheit">Fahrenheit</option>
+			  </select><br>
+			</div>
+			<br>
+			<button onclick="converterTemperatura()">Converter</button><br>
+
+			<div id="result" class="custom-input"></div>
+		  
+		  </div>
+	<footer>
+    Desenvolvido por Marcos Santos no Curso de Programador Front-End com o <a href="https://sammyfreitas.github.io/portfolioSite/">Prof. Anthony de Freitas<a/>.<br/>Todos os direitos reservados - Senai Maracanã - 2023 ©
+	</footer>
+	</div>
+
+  <script src="./js/script.js"></script>
+  
+</body>
+
+</html>
